@@ -28,7 +28,7 @@ De même pour l'HTML, CSS et JavaScript.
 
 ### Lancement de la simulation
 
-Allez dans le répertoire `Yams` et tapez la commande `./yams`
+Allez dans le répertoire `Jeu-du-Yams` et tapez la commande `./yams`
 Le jeu se lancera alors dans votre terminal et un partie commencera
 
 Une fois la partie terminée, un fichier .json apparaîtra (yams.json) il faudra convertir ce json en code via le site `https...` afin de pouvoir voir les statistiques sur la page html.
