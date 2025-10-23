@@ -36,7 +36,7 @@ La page html se situe dans le répertoire `Yams_Web`, elle se nomme **index.html
 
 ## Description
 Le but est de reproduire le jeu du Yam's ([Description du jeu](https://www.agoralude.com/blog/-la-regle-du-yams-ou-du-jeu-du-yahtzee-n43)) en C# et de faire un visuel du résultat sur une page web.
-Pour plus d'inforamtion sur le code, voir le document **[Description.pdf](https://github.com/Jean-GIESE/Jeu-du-Yams/blob/master/Abdullah_NEZAMI_Thomas_BARSEGHIAN_Jean_GIESE_TP5.pdf)**.
+Pour plus d'information sur le code, voir le document **[Description.pdf](https://github.com/Jean-GIESE/Jeu-du-Yams/blob/master/Abdullah_NEZAMI_Thomas_BARSEGHIAN_Jean_GIESE_TP5.pdf)**.
 
 
 ### Captures d'écran
