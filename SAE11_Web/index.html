@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./src/images/webIcon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Yam's</title>
+  </head>
+  <body>
+    <header class="navbar">
+      <img src="./src/images/logo.svg" alt="Logo" />
+      <nav class="">
+        <ul class="navbar-list">
+          <button class="view-btn" id="global-view-btn">Vue Globale</button>
+          <button class="view-btn" id="btn-rounds">Vue par tour</button>
+        </ul>
+      </nav>
+    </header>
+    <artcile class="fichier-deposer">
+      <h1>Jeu de Yams</h1>
+      <input
+        type="text"
+        placeholder="Numéro de fichier ex.ztlu65t..."
+        class="input-fichier"
+      />
+      <input type="button" value="Valider" class="btn-fichier" />
+    </artcile>
+    <main>
+      <section class="all-rounds display-none">
+        <section class="results">
+          <div class="result-header">
+            <h2>Game Results</h2>
+            <p class="game-info"></p>
+          </div>
+          <div class="cards">
+            <div class="result-card result-1">
+              <p class="user-info">
+                ID: <span class="id"></span> | Nom:
+                <span class="name"></span>
+              </p>
+              <p class="score-display"></p>
+              <p class="bonus-info"></p>
+              <img src="./src/images/star.png" alt="winner" class="winner" />
+            </div>
+            <div class="result-card result-2">
+              <p class="user-info">
+                ID: <span class="id"></span> | Nom:
+                <span class="name"></span>
+              </p>
+              <p class="score-display"></p>
+              <p class="bonus-info"></p>
+              <img src="./src/images/star.png" alt="winner" class="winner" />
+            </div>
+          </div>
+        </section>
+        <section class="rounds">
+          <section class="round">
+            <h3></h3>
+            <div class="round-div">
+              <div class="round-card">
+                <div class="round-content">
+                  <div>
+                    <img src="./src/images/playe-icon.svg" alt="player icon" />
+                    <p class="player-id"></p>
+                  </div>
+                  <div>
+                    <img
+                      src="./src/images/challenge-icon.svg"
+                      alt="challenge-icon"
+                    />
+                    <p class="challenge"></p>
+                  </div>
+                  <div>
+                    <img
+                      src="./src/images/score-icon.svg"
+                      alt="score icon"
+                      class="score-icon"
+                    />
+                    <p class="score"></p>
+                  </div>
+                </div>
+                <div class="dices">
+                  <div class="dice-corner">
+                    <img src="./src/images/dice-1.svg" />
+                    <img src="./src/images/dice-2.svg" />
+                  </div>
+                  <div class="dice-center">
+                    <img src="./src/images/dice-3.svg" />
+                  </div>
+                  <div class="dice-corner">
+                    <img src="./src/images/dice-5.svg" />
+                    <img src="./src/images/dice-6.svg" />
+                  </div>
+                </div>
+              </div>
+              <div class="round-card">
+                <div class="round-content">
+                  <div>
+                    <img src="./src/images/playe-icon.svg" alt="player icon" />
+                    <p class="player-id"></p>
+                  </div>
+                  <div>
+                    <img
+                      src="./src/images/challenge-icon.svg"
+                      alt="challenge-icon"
+                    />
+                    <p class="challenge"></p>
+                  </div>
+                  <div>
+                    <img
+                      src="./src/images/score-icon.svg"
+                      alt="score icon"
+                      class="score-icon"
+                    />
+                    <p class="score"></p>
+                  </div>
+                </div>
+                <div class="dices">
+                  <div class="dice-corner">
+                    <img src="./src/images/dice-6.svg" />
+                    <img src="./src/images/dice-5.svg" />
+                  </div>
+                  <div class="dice-center">
+                    <img src="./src/images/dice-3.svg" />
+                  </div>
+                  <div class="dice-corner">
+                    <img src="./src/images/dice-2.svg" />
+                    <img src="./src/images/dice-1.svg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </section>
+      <section class="individual-rounds display-none">
+        <h1></h1>
+        <div class="results-container">
+          <button class="arrow left-arrow">
+            <div><img src="./src/images/icon.svg" /></div>
+            Prec
+          </button>
+          <div class="result-box">
+            <section class="result-jouer-1 result-jouer">
+              <div class="dice-design-container">
+                <img src="./src/images/dice-1.svg" />
+                <img src="./src/images/dice-2.svg" />
+                <img src="./src/images/dice-3.svg" />
+                <img src="./src/images/dice-4.svg" />
+                <img src="./src/images/dice-6.svg" />
+              </div>
+              <p class="result-jouer-text challenge"></p>
+              <div class="result-jouer-text">
+                <p class="id"></p>
+                <p class="score"></p>
+              </div>
+            </section>
+            <section class="result-jouer-2 result-jouer">
+              <div class="dice-design-container">
+                <img src="./src/images/dice-1.svg" />
+                <img src="./src/images/dice-2.svg" />
+                <img src="./src/images/dice-3.svg" />
+                <img src="./src/images/dice-4.svg" />
+                <img src="./src/images/dice-6.svg" />
+              </div>
+              <p class="challenge"></p>
+              <div class="result-jouer-text">
+                <p class="id"></p>
+                <p class="score"></p>
+              </div>
+            </section>
+          </div>
+          <button class="arrow right-arrow">
+            Suiv
+            <div><img src="src/images/icon.svg" /></div>
+          </button>
+        </div>
+      </section>
+      <aside class="carosal-change display-none">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </aside>
+    </main>
+    <footer class="footer">
+      <img src="./src/images/webIcon.png" />
+      <div class="footer-content">
+        <h4 class="footer-title">IUT Robert Schuman Illkirch</h4>
+        <p>SAÉ P11-W11</p>
+      </div>
+      <div class="footer-credits">
+        <p>&copy; 2024 All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
