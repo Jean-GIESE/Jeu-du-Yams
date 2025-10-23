@@ -1,0 +1,96 @@
+###################################
+# === FICHIERS GÉNÉRÉS PAR VISUAL STUDIO / .NET ===
+###################################
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.vspscc
+*.vssscc
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.dbmdl
+*.bak
+*.obj
+*.tmp
+*.vsconfig
+*.csproj.user
+*.suo
+*.userprefs
+*.tlog
+
+# Répertoires Visual Studio
+.vs/
+bin/
+obj/
+TestResults/
+packages/
+AppPackages/
+BundleArtifacts/
+publish/
+node_modules/
+
+###################################
+# === FICHIERS WEB (FRONTEND) ===
+###################################
+# Node.js / npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dossiers de build
+dist/
+build/
+coverage/
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.code-workspace
+
+###################################
+# === SYSTEME / OS ===
+###################################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+###################################
+# === AUTRES FICHIERS ===
+###################################
+# Fichiers temporaires
+*.swp
+*.lock
+*.tmp
+*.temp
+
+# Sauvegardes d’éditeurs
+*~
+*.bak
+
+###################################
+# === À GARDER DANS LE DÉPÔT ===
+###################################
+# On garde la licence et les PDF
+!LICENSE
+!*.pdf
+
+# On garde les fichiers HTML, CSS, JS, et C#
+!*.html
+!*.css
+!*.js
+!*.cs
