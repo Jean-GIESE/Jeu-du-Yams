@@ -2,6 +2,8 @@
 
 - Membres du goupe : [Jean GIESE](https://git.unistra.fr/jgiese), [Abdullah NEZAMI](https://git.unistra.fr/nezami), [Thomas BARSEGHIAN](https://git.unistra.fr/tbarseghian)
 
+Étant donné que le jeu n'ait pas été partagé via git, aucun commit n'est présent.
+
 ## Installation / lancement du jeu
 
 Ouvrez un terminal et mettez-vous dans un répertoire où vous placerez le projet
@@ -36,8 +38,7 @@ La page html se situe dans le répertoire `Yams_Web`, elle se nomme **index.html
 
 ## Description
 Le but est de reproduire le jeu du Yam's ([Description du jeu](https://www.agoralude.com/blog/-la-regle-du-yams-ou-du-jeu-du-yahtzee-n43)) en C# et de faire un visuel du résultat sur une page web.
-Pour plus d'information sur le code, voir le document **[Description.pdf](https://github.com/Jean-GIESE/Jeu-du-Yams/blob/master/Abdullah_NEZAMI_Thomas_BARSEGHIAN_Jean_GIESE_TP5.pdf)**.
-
+Pour plus d'information sur le code, voir le document **[Description.pdf](https://github.com/Jean-GIESE/Jeu-du-Yams/blob/master/Description.pdf)**.
 
 ### Captures d'écran
 
