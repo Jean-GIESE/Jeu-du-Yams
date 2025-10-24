@@ -2,7 +2,7 @@
 
 - Membres du goupe : [Jean GIESE](https://git.unistra.fr/jgiese), [Abdullah NEZAMI](https://git.unistra.fr/nezami), [Thomas BARSEGHIAN](https://git.unistra.fr/tbarseghian)
 
-Étant donné que le jeu n'ait pas été partagé via git, aucun commit n'est présent.
+Étant donné que le jeu n'a pas été partagé via git, aucun commit n'est présent.
 
 ## Installation / lancement du jeu
 
@@ -33,8 +33,9 @@ De même pour l'HTML, CSS et JavaScript.
 Allez dans le répertoire `Jeu-du-Yams` et tapez la commande `./yams`
 Le jeu se lancera alors dans votre terminal et un partie commencera
 
-Une fois la partie terminée, un fichier .json apparaîtra (yams.json) il faudra convertir ce json en code via le site `https...` afin de pouvoir voir les statistiques sur la page html.
-La page html se situe dans le répertoire `Yams_Web`, elle se nomme **index.html**. Ouvrez la page sur votre navigateur et insérez le code fournit via le .json pour voir le déroulé de la partie.
+Une fois la partie terminée, un fichier .json apparaîtra (yams.json), il fallait normalement convertir ce json en code via un site web, afin de pouvoir voir les statistiques sur la page html. Malheureusement ce site web n'existe plus.
+
+La page html se situe dans le répertoire `Web`, elle se nomme **index.html**. Ouvrez la page sur votre navigateur et insérez le code fournit via le .json pour voir le déroulé de la partie. (ne marche plus car le site pour convertir le .json en code n'existe plus)
 
 ## Description
 Le but est de reproduire le jeu du Yam's ([Description du jeu](https://www.agoralude.com/blog/-la-regle-du-yams-ou-du-jeu-du-yahtzee-n43)) en C# et de faire un visuel du résultat sur une page web.
@@ -42,4 +43,8 @@ Pour plus d'information sur le code, voir le document **[Description.pdf](https:
 
 ### Captures d'écran
 
-A compléter
+#### Affichage d'un round :
+<img src="screenshots/Round1.png" width="700" alt="Exemple round 1">
+
+#### Lancer de dés :
+<img src="screenshots/LancerDes.png" width="700" alt="Lancer de dés">
