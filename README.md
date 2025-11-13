@@ -35,7 +35,7 @@ Le jeu se lancera alors dans votre terminal et un partie commencera
 
 Une fois la partie terminée, un fichier .json apparaîtra (yams.json), il fallait normalement convertir ce json en code via un site web, afin de pouvoir voir les statistiques sur la page html. Malheureusement ce site web n'existe plus.
 
-La page html se situe dans le répertoire `Web` (SAE11 faisait référence au nom du projet mais ne pleux plus être modifié, ce dernier n'a pas d'importance), elle se nomme **index.html**. Ouvrez la page sur votre navigateur et insérez le code fournit via le .json pour voir le déroulé de la partie. (ne marche plus car le site pour convertir le .json en code n'existe plus)
+La page html se situe dans le répertoire `Web` *(SAE11 faisait référence au nom du projet mais ne pleux plus être modifié, ce dernier n'a pas d'importance)*, elle se nomme **index.html**. Ouvrez la page sur votre navigateur et insérez le code fournit via le .json pour voir le déroulé de la partie. (ne marche plus car le site pour convertir le .json en code n'existe plus)
 
 ## Description
 Le but est de reproduire le jeu du Yam's ([Description du jeu](https://www.agoralude.com/blog/-la-regle-du-yams-ou-du-jeu-du-yahtzee-n43)) en C# et de faire un visuel du résultat sur une page web.
