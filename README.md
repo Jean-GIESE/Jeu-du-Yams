@@ -25,8 +25,8 @@ git config --global user.email "[email]"
 ```sh
 git clone https://github.com/Jean-GIESE/Jeu-du-Yams.git
 ```
-Si vous n'avez pas le language C# sur votre ordinateur, installez-le.
-De même pour l'HTML, CSS et JavaScript.
+Si vous n'avez pas le language C# sur votre ordinateur, installez-le via [ces instructions](https://doc.ubuntu-fr.org/csharp).
+De même pour l'HTML, CSS et JavaScript ([lien du téléchargement](https://www.clubic.com/telecharger-fiche227868-html-executable.html)).
 
 ### Lancement de la simulation
 
